@@ -1,5 +1,5 @@
 /* =============================
-GENERAL STYLES 
+GENERAL STYLES
 ================================ */
 body {
   font-family: "Raleway", sans-serif;
@@ -91,7 +91,28 @@ main {
 GAME BOARD
 ================================ */
 img {
-  margin: 40px 8px 0;
+  margin: 20px 8px;
+}
+
+button {
+  font-size: 24px;
+  margin-top: 10px;
+  background-color: #00A6B3;
+  color: white;
+}
+
+/* =============================
+SCORE BOARD
+================================ */
+table {
+  width: 25%;
+  text-align: center;
+  font-size: 24px;
+  margin: 10px auto;
+  border: 1px black solid;
+}
+.scoreboardlabel {
+  font-weight: bold;
 }
 
 /* =============================
